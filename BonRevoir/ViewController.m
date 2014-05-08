@@ -14,6 +14,9 @@
 
 @implementation ViewController
 
+NSString *const BonjourString = @"Bonjour";
+NSString *const AuRevoirString = @"Au Revoir";
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -26,4 +29,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)monBouton:(id)sender {
+    if ([[_monLabel text] isEqualToString:BonjourString]) {
+        [_monLabel setText:AuRevoirString];
+        [_monBouton setTitle:[@"Dis " stringByAppendingString:BonjourString] forState:UIControlStateNormal];
+    } else {
+        [_monLabel setText:BonjourString];
+        [_monBouton setTitle:[@"Dis " stringByAppendingString:AuRevoirString] forState:UIControlStateNormal];
+    }
+}
 @end
