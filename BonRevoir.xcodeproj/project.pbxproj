@@ -162,6 +162,7 @@
 				E51A13AB191B59AE00990CD5 /* Sources */,
 				E51A13AC191B59AE00990CD5 /* Frameworks */,
 				E51A13AD191B59AE00990CD5 /* Resources */,
+				E56B78A81922B0DF002E9B85 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -243,6 +244,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E56B78A81922B0DF002E9B85 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E51A13AB191B59AE00990CD5 /* Sources */ = {
@@ -379,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BonRevoir/BonRevoir-Prefix.pch";
 				INFOPLIST_FILE = "BonRevoir/BonRevoir-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BonRevoir/BonRevoir-Prefix.pch";
 				INFOPLIST_FILE = "BonRevoir/BonRevoir-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +475,7 @@
 				E51A13E3191B59AE00990CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E51A13E4191B59AE00990CD5 /* Build configuration list for PBXNativeTarget "BonRevoirTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +484,7 @@
 				E51A13E6191B59AE00990CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
